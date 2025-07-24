@@ -38,13 +38,13 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/uikit/dist/css/uikit.min.css"
+              "node_modules/uikit/dist/css/uikit.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": [
               "node_modules/uikit/dist/js/uikit.min.js",
               "node_modules/uikit/dist/js/uikit-core.min.js",
-              "node_modules/uikit/dist/js/uikit-icons.min.js",
-              "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+              "node_modules/uikit/dist/js/uikit-icons.min.js"
             ]
           },
           "configurations": {
