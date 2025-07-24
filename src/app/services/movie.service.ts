@@ -17,4 +17,7 @@ export class MovieService {
   getMovies() : Observable<any> {
     return this.http.get<any>("http://localhost:3000/movies");
   }
+
+
+
 }
