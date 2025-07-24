@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<div class="eni-movie-rating">
 @for (i of [1, 2, 3, 4, 5]; track i) {
-  <!-- 3 by default beacause I can't get to get rating to work -->
+
   @if (i <= rating) {
     <span class="fa fa-star checked"></span>
   }
@@ -9,3 +10,4 @@
   <span class="fa fa-star"></span>
   }
 }
+</div>

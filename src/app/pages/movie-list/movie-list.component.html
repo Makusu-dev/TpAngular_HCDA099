@@ -1,5 +1,5 @@
 <h1>Films</h1>
-<div>
+<div class="uk-section uk-section-default uk-height-viewport ">
   @for (movie of movies; track movie.id) {
       <div class="uk-card uk-card-secondary uk-card-hover uk-card-body eni-movie-card"
            [ngStyle]="{ 'background-image': 'url(' + movie.cover + ')' }">
@@ -13,5 +13,4 @@
       </div>
       </div>
   }
-
 </div>
